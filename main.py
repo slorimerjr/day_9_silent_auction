@@ -21,6 +21,7 @@ def auction_winner():
             y = all_bids[x]["bid"]
             winner = all_bids[x]["name"]
             x += 1
+    clear()
     print(f"{winner} won the auction with a bid of ${y}.")
 
 cont_auction = "yes"
